@@ -1,0 +1,6 @@
+project( moving_object )
+find_package( OpenCV REQUIRED )
+add_executable( moving_object moving_object )
+target_link_libraries( moving_object ${OpenCV_LIBS} )
+
+
